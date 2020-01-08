@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #E5E5E5;
+}
+
+#root {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #F2F2F2;
+}
+
+.block.-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.block.-header .title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: 3rem;
+}
+
+.block.-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block.-input .inputText {
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 1px solid #E0E0E0;
+  background-color: transparent;
+}
+
+.block.-input ::-webkit-input-placeholder {
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.block.-input :-ms-input-placeholder {
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.block.-input ::-ms-input-placeholder {
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.block.-input ::placeholder {
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.block.-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0 1.5rem 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.block.-list .itemList {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.block.-list .itemList span {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.block.-list .check::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1.6rem;
+  height: 1px;
+  width: 80%;
+  background-color: #828282;
+}
+
+.block.-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.block.-footer .totalPrice {
+  margin-right: 2rem;
+}
+
+.block.-footer .totalValue {
+  color: #eb5757;
+}
+
+.btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+}
+
+.btn.-search {
+  width: 24px;
+  height: 24px;
+  background: url(./test/style/icon/search.svg) no-repeat center;
+  background-size: cover;
+}
+
+.btn.-add {
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  background-color: #eb5757;
+}
+
+.btn.-name, .btn.-quantity, .btn.-price {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #BDBDBD;
+  font-weight: 600;
+  padding: .5rem 2rem;
+  margin-right: 2rem;
+  background-color: #fff;
+}
+
+.btn.-clear {
+  color: #fff;
+  font-weight: 600;
+  padding: .5rem 2rem;
+  background-color: #828282;
+}
+
+.btn.-delete {
+  width: 14px;
+  height: 14px;
+  background: url(./test/style/icon/trash.svg) no-repeat center;
+  background-size: contain;
+  margin-right: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
